@@ -9,7 +9,8 @@ function setupMap(centerPosition) {
   const map = new mapboxgl.Map({
     accessToken: MAPBOX_ACCESS_TOKEN,
     container: "map",
-    style: "mapbox://styles/mapbox/streets-v12",
+    style: "mapbox://styles/mapbox/navigation-night-v1",
+    // style: "mapbox://styles/mapbox/standard",
     center: centerPosition,
     zoom: 15,
   })
