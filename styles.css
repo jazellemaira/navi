@@ -1,12 +1,82 @@
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
+  margin: 0;
+}
+
+:root {
+  --_accent-color: #40dfaf;
+  --_muted-accent-color: #2a765f;
 }
 
 #map {
-    height: 100vh;
-    width: 100vw;
+  height: 100vh;
+  width: 100vw;
+}
+
+.mapboxgl-ctrl-group {
+  background: #00000092;
+}
+
+.mapboxgl-ctrl-icon {
+  filter: brightness(100);
+}
+
+.mapbox-directions-origin .mapbox-form-label {
+  /* background: var(--_accent-color); */
+  filter: saturate(0.4);
+}
+
+.mapbox-form-label {
+  /* background: var(--_muted-accent-color); */
+  filter: saturate(0.6);
+}
+
+.mapboxgl-ctrl-geocoder input[type="text"] {
+  background: #222;
+  color: #fff;
+}
+
+.mapbox-directions-step {
+  color: var(--_accent-color);
+}
+
+.mapboxgl-ctrl-geocoder .geocoder-pin-right * {
+  background-color: #fff;
+  opacity: 0.4;
+}
+
+.mapboxgl-ctrl button:not(:disabled):hover {
+  background-color: #777;
+}
+
+.mapbox-directions-profile {
+  background: #686968;
+}
+
+.mapbox-directions-profile input[type="radio"]:checked + label:hover,
+.mapbox-directions-profile input[type="radio"]:checked + label {
+  background: #212020eb;
+  color: var(--_accent-color);
+}
+
+.mapbox-marker-drag-icon-step {
+  background: var(--_muted-accent-color);
+}
+
+.mapboxgl-user-location-dot,.mapboxgl-user-location-dot:before {
+    background: var(--_accent-color);
+}
+
+.mapboxgl-ctrl.mapboxgl-ctrl-attrib {
+  background-color: #86a8a4c7;
+}
+
+a.mapboxgl-ctrl-logo {
+    filter: invert(1);
+    opacity: .6;
 }
