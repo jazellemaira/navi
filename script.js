@@ -11,7 +11,7 @@ function setupMap(centerPosition) {
     container: "map",
     style: "mapbox://styles/mapbox/navigation-night-v1",
     center: centerPosition,
-    zoom: 15,
+    zoom: 13,
   })
 
   const navigationControls = new mapboxgl.NavigationControl()
