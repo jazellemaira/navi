@@ -22,6 +22,13 @@ Happy navigating! [Navi](https://jazellemaira.github.io/navi/)
 
 <div align="center">
 
+$$\color{cadetBlue}{***\ Here's\ a\ snapshot\ ***}$$
+
+<div align="center">
+<img src="https://github.com/jazellemaira/navi/assets/42837484/a4a287ec-ec79-440a-80d3-a9eba09860a8">  
+</div>
+
+
 $$\color{cadetBlue}{***\ Quick\ demo\ of\ the\ Navi\ app\ ***}$$
 
 https://github.com/jazellemaira/navi/assets/42837484/e8f6d5c5-e2ce-4fb4-a1c7-a8b3dbcc1acc
@@ -32,11 +39,7 @@ https://github.com/jazellemaira/navi/assets/42837484/e8f6d5c5-e2ce-4fb4-a1c7-a8b
 <br />
 
 
-$$\color{cadetBlue}{***\ Here's\ a\ snapshot\ ***}$$
 
-<div align="center">
-<img src="https://github.com/jazellemaira/navi/assets/42837484/a4a287ec-ec79-440a-80d3-a9eba09860a8">  
-</div>
 
 ## Contributing
 
