@@ -94,6 +94,7 @@ a.mapboxgl-ctrl-logo {
 
   bottom: 0;
   left: 50%;
+  transform: translate(-50%);
   border-radius: 100%;
   background: #bbbbbb62;
   width: 2rem;
