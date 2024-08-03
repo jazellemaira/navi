@@ -68,11 +68,12 @@ body {
   background: var(--_muted-accent-color);
 }
 
-.mapboxgl-user-location-dot,.mapboxgl-user-location-dot:before {
-    background: var(--_accent-color);
+.mapboxgl-user-location-dot,
+.mapboxgl-user-location-dot:before {
+  background: var(--_accent-color);
 }
 
-.mapbox-directions-steps  {
+.mapbox-directions-steps {
   height: 10rem;
 }
 
@@ -81,6 +82,29 @@ body {
 }
 
 a.mapboxgl-ctrl-logo {
-    filter: invert(1);
-    opacity: .6;
+  filter: invert(1);
+  opacity: 0.6;
+}
+
+.github-icon-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 100%;
+  background: #bbbbbb62;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 0.5rem;
+
+  color: #2b2b2b;
+  font-size: larger;
+}
+
+.github-icon-container > a:visited {
+  color: inherit;
 }
